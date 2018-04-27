@@ -20,7 +20,7 @@ import javax.swing.JLabel;
 /**
  * Represents a jiggler system where the circles drawn will jiggle
  * 
- * @author Tony Diep, last updated 1-19-17
+ * @author Tony Diep, last updated 4-27-18
  */
 public class Jiggler extends Thread
 {
@@ -63,8 +63,6 @@ public class Jiggler extends Thread
 			{
 				Circle myAmoeba = (Circle) drawables.get(i);
 				Rectangle r1 = drawables.get(i).getBounds();
-
-//				r1 = myAmoeba.getBounds();
 
 				for(int j = i + 1; j < drawables.size() - 1; j++)
 				{

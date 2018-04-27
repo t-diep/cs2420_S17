@@ -24,7 +24,7 @@ import javax.swing.SwingUtilities;
 /**
  * Represents a circle Object to be drawn 
  * 
- * @author Tony Diep, last updated 1-19-17
+ * @author Tony Diep, last updated 4-27-18
  */
 public class Circle extends JComponent implements MouseMotionListener, MouseListener
 {

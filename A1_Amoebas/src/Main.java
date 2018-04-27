@@ -25,7 +25,7 @@ import javax.swing.event.ChangeListener;
 /**
  * Sets up the whole GUI program (i.e. the JFrame and other components)
  * 
- * @author Tony Diep, last updated 1-19-17
+ * @author Tony Diep, last updated 4-27-18
  */
 public class Main extends JFrame implements ChangeListener
 {		
@@ -75,9 +75,6 @@ public class Main extends JFrame implements ChangeListener
    		fpsLabel = new JLabel("Frames per second: ");
    		labelPanel.add(fpsLabel);
    		masterPanel.add(labelPanel, "North");
-   		
-   		//drawCircles(this.numOfCircles);
-			
 		masterPanel.add(circlePanel, "Center");
 		
 		for(int index = 0; index < this.numOfCircles; index++)
@@ -98,12 +95,6 @@ public class Main extends JFrame implements ChangeListener
 		pack();
 		
 		new Jiggler(components, fpsLabel).start();
-	}
-	
-	public static void main(String[] args) 
-	{		
-		Main jiggles = new Main(100);
-		jiggles.setVisible(true);
 	}
 
 	/**
@@ -134,5 +125,11 @@ public class Main extends JFrame implements ChangeListener
 			
 			new Jiggler(components, fpsLabel).start();
 		}
+	}
+	
+	public static void main(String[] args) 
+	{		
+		Main jiggles = new Main(100);
+		jiggles.setVisible(true);
 	}
 }
