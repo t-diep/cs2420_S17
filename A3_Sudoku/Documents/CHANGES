@@ -1,0 +1,5 @@
+	I have added some more changes after turning what I had so far on Thursday, February 2.  
+I implemented more code on the solve_by_elimination, print_possibilities_ and toString() methods.  
+I also implemented some JUnit Tests for each method in the Sudoku class.  I deleted miscellaneous
+code that were commented out and stylistically reformatted the code. I also added some more content
+to the analysis document, even though I did not get to the graphing part.

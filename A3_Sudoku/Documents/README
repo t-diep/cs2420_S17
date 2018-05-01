@@ -1,0 +1,18 @@
+README:
+
+	I do not have the elimination and recursion solver methods completed.  I 
+also did not finish the print_possibilities and toString() methods.
+I have some test cases completed for the valid_for_row, valid_for_column,
+and valid_for_box, first constructor, second constructor, 1D array, 
+2D array, and is_valid methods.  I will continue to work on finishing
+those following methods above and hopefully to get them completed and 
+working by tomorrow, February 3.  I also need to construct the graph 
+and answer the questions following the graph. So in other words, 
+I partially completed the analysis document.  Other than that, I have 
+the design_document, i_worked_with, and partner_evaluation documents
+completed.  
+
+
+
+
+
