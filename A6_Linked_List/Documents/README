@@ -1,0 +1,75 @@
+/*
+ * Andrew Worley
+ * u0651238
+ * 2/23/17
+ * 2420-001
+ * Assignment 06
+ * Tony Diep
+ * 
+ * I pledge that the work done here was my own and 
+ * that I have learned how to write this program, such that 
+ * I could throw it out and restart and finish it in a timely manner. 
+ * I am not turning in any work that I cannot understand, describe, or recreate. 
+ * I further acknowledge that I contributed substantially to all code handed in and 
+ * vouch for it's authenticity. - Tony Diep, Andrew Worley
+*/
+  
+  
+  
+  Best regards,
+  
+  Andrew Worley and Tony Diep
+
+
+README
+
+1) AUTHOR INFORMATION
+Homework 5 - Sorting Analysis
+My Name: Tony Diep
+Partner: Andrew Worley
+Date:    February 23, 2017
+
+2) SUMMARY
+	The project emphasizes on two types of lists as well as continuing to apply recursion and generics:
+1) Array_List_2420 and Linked_List_2420.  We were first required to implement JUnit Tests for all of the 
+classes first before moving on to the class implementations.  Then we were able to complete the class implementations
+for the ArrayList and LinkedList.  Then we performed timing experiments to compare the two lists in terms of
+complexity and efficiency.  Finally, we wrote an analysis report discussing the results.
+
+3) LATE WORK
+~We do not plan to turn in a resubmission on this assignment, even though our analysis is incomplete.	
+
+EDIT 2-24-17
+~We actually planned a resubmission because we did not finish our analysis documents on time.  
+Nonetheless, the analysis is complete and is ready.
+
+4) NOTES TO THE TA
+~Each of us constructed our own JUnit Tests and combined them into one library full of JUnit Tests.  
+
+~Additionally, my partner, Andrew, implemented a giant experimental JUnit Test that tests for the
+add_middle() method.  We added an element, 66, after each element in the Linked List.  In other words, 
+we wanted to test element after every index to ensure that any given position afterward will work.   
+
+
+5) PLEDGE
+
+	I pledge that the work done here was my own and that I have learned how to write
+ this program (such that I could throw it out and restart and finish it in a timely
+ manner).  I am not turning in any work that I cannot understand, describe, or
+ recreate.  Any sources (e.g., web sites) other than the lecture that I used to
+ help write the code are cited in my work.  When working with a partner, I have
+ contributed an equal share and understand all the submitted work.  Further, I have
+ helped write all the code assigned as pair-programming and reviewed all code that
+ was written separately.
+	(Tony Diep)
+	
+6) DESIGN DECISIONS
+	We utilized the "Test First" requirement according to the assignment specifications.  This works
+for us regardless because we are thrilled to construct the JUnit Testings.  Then, we immediately worked
+on the Linked_List_2420 class.    
+
+7) PROBLEMS ENCOUNTERED AND THEIR SOLUTIONS
+	There were a few slight mishaps in terms of our implementation in Linked_List_2420 and Array_List_2420.
+Our JUnits at the time showed that there were a few logical errors such as off by one errors and null
+pointer exceptions.  Of course, we easily remedied those problems by utilizing the debugger to pinpoint
+the slight flaws in the code implementations.  
