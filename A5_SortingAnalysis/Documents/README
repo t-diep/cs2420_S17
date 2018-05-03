@@ -1,0 +1,81 @@
+README
+
+1) AUTHOR INFORMATION
+Homework 5 - Sorting Analysis
+My Name: Tony Diep
+Partner: Cindy Liao
+Date:    February 19, 2017
+
+2) SUMMARY
+	The project is about analyzing all of the different sorts discussed in lecture:
+insertion sort, shell sort, merge sort, and quick sort and its variants (i.e. 
+quick sort median 3, quick sort random pivoting, and quick sort first pivot).  We must
+implement the code for each of the different sorts as well allow us to customize
+the cutoff constant.  Once completed, we are to time each of the different sorts 
+on different sized arraylists for integers.   
+ 
+3) LATE WORK
+~We noticed how difficult the assignment because one of the hardest parts is 
+following the pseudocode of the sorting algorithms.  The question is translating 
+from pseudocode to Java code.  
+
+~We will turn in this assignment late, therefore.  We will have this assignment
+turned in late and thus have it done by 11:59 p.m. Friday, February 17.  
+
+~Our analysis document is incomplete.  We don't have the graphs drawn since
+we do not have our data gathered yet.  We also did not answer all of the questions,
+but we hope to have that completed by February 17.  
+
+4) NOTES TO THE TA
+~We implemented two JUnit Tests for each of the sorts for Integer and String types
+
+EDIT: 2-17-17
+~This is a resubmit.  We finished implementing the JUnit Tests for the Quick Sorts,
+Merge Sort, and Shell Sort.  We also got the timing code but we are getting errors on
+some of the sorting algorithms since they are not sorting the elements in an arraylist
+
+EDIT: 2-18-17
+~We thought we were able to complete this assignment on Friday, February 17, but we 
+were unavailable to complete it.  Instead, we will get it completed by 11:59 p.m.
+on Saturday, February 18
+
+~We fixed the Quick Sort child classes: Quick Sort Median 3, Quick Sort Random Pivot, and
+Quick Sort First Pivot.  
+
+~We completed the analysis document questions but we are still working on getting the data
+points and showing the graphs. 
+
+EDIT: 2-19-17
+~We have completed the Quick Sort First Pivot and Quick Sort Random classes.  We were able 
+to get the data for the two quick sort classes.  
+~We were then able to complete our analysis and get our graphs on the analysis document.
+
+~We were also able to clean up code and finish inserting Javadocs onto every .java file
+
+~We will say that this has been one of the most challenging and time-consuming
+assignments so far.  However, we have learned a lot about algorithm analysis and
+how correctness is only half the battle.  Complexity is more essential than the 
+correctness but both of these principles are necessary for successful programming.
+
+5) PLEDGE
+
+	I pledge that the work done here was my own and that I have learned how to write
+ this program (such that I could throw it out and restart and finish it in a timely
+ manner).  I am not turning in any work that I cannot understand, describe, or
+ recreate.  Any sources (e.g., web sites) other than the lecture that I used to
+ help write the code are cited in my work.  When working with a partner, I have
+ contributed an equal share and understand all the submitted work.  Further, I have
+ helped write all the code assigned as pair-programming and reviewed all code that
+ was written separately.
+	(Tony Diep)
+	
+6) DESIGN DECISIONS
+	We decided to start implementing all of the different small methods (i.e. set_constant, 
+sort, get_expected_complexity_class, and name_of_sort) because we feel they have the easiest
+implementations.  Thus, we decided to take care of them first, then we focused on implementing 
+the hardest sorting algorithms such as the quick sorts and merge sort.  
+
+7) PROBLEMS ENCOUNTERED AND THEIR SOLUTIONS
+	We had a lot of difficulty debugging merge sort.  We noticed we created too many loops than necessary
+and we had off-by-one errors.  Because of this, we had a lot of IndexOutOfBoundsExceptions.  We remedied
+this by efficiently using the debugger to help us pinpoint issues.
