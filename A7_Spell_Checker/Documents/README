@@ -1,0 +1,49 @@
+README
+
+1) AUTHOR INFORMATION
+Homework 7 - Spell Checker
+My Name: Tony Diep
+Partner: Gabbie Hoyer
+Date:    March 03, 2017
+
+2) SUMMARY
+	We started the assignment on Sunday evening hoping to get the Node class done 
+at a reasonable amount of time.  However, we still were not familiar with the BST at the time.
+We communicated pretty well.
+	
+
+3) LATE WORK
+~We are planning for a resubmission on this assignment.  
+~We have the remove() method for BST almost done but we will turn in what we have so far
+~Comments are cleaned
+
+EDIT 3-03-17:
+
+~We have the remove method for the BST class completed.  It passed all of our JUnits
+
+4) NOTES TO THE TA
+~We have a lot of JUnit Tests implemented.  We tested different nodes and different BST's
+
+
+5) PLEDGE
+
+	I pledge that the work done here was my own and that I have learned how to write
+ this program (such that I could throw it out and restart and finish it in a timely
+ manner).  I am not turning in any work that I cannot understand, describe, or
+ recreate.  Any sources (e.g., web sites) other than the lecture that I used to
+ help write the code are cited in my work.  When working with a partner, I have
+ contributed an equal share and understand all the submitted work.  Further, I have
+ helped write all the code assigned as pair-programming and reviewed all code that
+ was written separately.
+	(Tony Diep)
+	
+6) DESIGN DECISIONS
+	
+	We will start building from the Node class and complete its methods.  We will then move on 
+to the BinarySearchTree class since that is the next class up in the hierarchy.  Furthermore,
+we also decided to set up our Timing class to deduce the amount of time to work on the project.
+	 
+
+7) PROBLEMS ENCOUNTERED AND THEIR SOLUTIONS
+	We encountered a lot of NullPointerExceptions and StackOverFlowExceptions because we forget to cover
+a couple of base cases.  We also realized we wrote our JUnits incorrectly, so went back and fixed them.

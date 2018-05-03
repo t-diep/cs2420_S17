@@ -1,0 +1,16 @@
+digraph BST {
+node [shape=record]
+Tony[label="<L> |<D> Tony|<R> "]
+Jake[label="<L> |<D> Jake|<R> "]
+Andrew[label="<L> |<D> Andrew|<R> "]
+Jake:L -> Andrew:D
+Katya[label="<L> |<D> Katya|<R> "]
+Sophia[label="<L> |<D> Sophia|<R> "]
+Robert[label="<L> |<D> Robert|<R> "]
+Sophia:L -> Robert:D
+Tina[label="<L> |<D> Tina|<R> "]
+Sophia:R -> Tina:D
+Katya:R -> Sophia:D
+Jake:R -> Katya:D
+Tony:L -> Jake:D
+}
