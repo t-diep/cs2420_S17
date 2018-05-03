@@ -1,0 +1,17 @@
+README
+
+~We implemented a lot of JUnit Tests for each of the methods
+
+~We also created a helper method, called swap, but we ended up not using it.  The reason
+why we left it there in the AnagramUtil class is because I already implemented JUnit
+Tests for the swap helper method and I didn't want to delete those days of hard coding
+them.  Thus, we will keep them even though the swap method was not used.
+
+~Instead of creating three classes to each represent a Comparator for Integer, String, and Character,
+we actually created 3 static fields that represented each Comparator (Integer, String, and Character) at the
+top but still inside the AnagramUtil class.  Although this is not the convention not expected in 
+the assignment, I thought it be easier to do it this way. Because in the JUnit tests, especially
+in the insertion sort tests, we can just call the class name then the name of the Comparator field
+we want to use.  In essence, it is like an instance field for a class.  
+
+ 
