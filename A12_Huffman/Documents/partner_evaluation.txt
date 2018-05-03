@@ -1,0 +1,19 @@
+---- partner evaluation file -----
+Homework 12 - Partner Evaluation
+My Name: Tony Diep
+Partner: Alex Cervantes
+Date:    April 25, 2017
+
+Hours Worked on Project: ~20 
+
+Partner Score: # 3
+
+Group Analysis: 
+
+Me and Alex were great.  We collaborated and discussed on different ideas 
+regarding the different classes.  We ensured that we were on the same page
+in terms of understanding how Huffman Trees work and what methods needed
+to be done.  This assignment was certainly one of the hardest assignments
+we have ever done in this class but in the end, we say it was worth 
+the struggle.
+----------------------------------
